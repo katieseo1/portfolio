@@ -175,8 +175,9 @@ li a:hover {
 	border-style: solid;
 	border-width: 1px;
 	border-style: round;
-	background-color: #f4f7f7;
-	border-color: #e6e6e6;
+	//background-color: #f4f7f7;
+	border-color: #e5ecec;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 .btn--blue {
 	background-color: transparent;
@@ -202,7 +203,6 @@ li a:hover {
 .about-container p {
 	font-size: 1.2em !important;
 	font-weight: 300;
-	font-family: Arial;
 	line-height: 150%;
 	text-align: center;
 }
@@ -254,13 +254,12 @@ li a:hover {
 	p {
 		font-size: 1.2em !important;
 		font-weight: 350;
-		//font-family: Arial;
+		font-family: inherit;
 		line-height: 120%;
 	}
 	.about-container p {
 		font-size: 1.3em !important;
-		font-weight: 300;
-		font-family: Arial;
+		font-weight: 330;
 		line-height: 150%;
 		text-align: center;
 	}
