@@ -181,10 +181,11 @@ li a:hover {
 }
 .btn--blue {
 	background-color: transparent;
-	border: 2px solid grey;
+	border: 1px solid grey;
 	color: black;
 	font-weight: 300;
 	font-size: 16px;
+	border-radius: 2px;
 }
 .btn--blue:hover, .btn--blue:focus, .btn--blue:active, .btn--blue.active {
 	background-color: white;
@@ -204,14 +205,14 @@ li a:hover {
 	font-size: 1.2em !important;
 	font-weight: 300;
 	line-height: 150%;
-	text-align: center;
 }
 .btn-left {
 	float: left;
 	padding: 10px;
 }
 .btn-right {
-	float: right;
+	float: left;
+	margin-right: 30px;
 	padding: 10px;
 }
 .image-cropper {
@@ -261,7 +262,6 @@ li a:hover {
 		font-size: 1.3em !important;
 		font-weight: 330;
 		line-height: 150%;
-		text-align: center;
 	}
 	.main-text{
 		font-size: 1.23em;
@@ -279,14 +279,12 @@ li a:hover {
 		margin-top: 50px;
 	}
 }
-
 .nav li {
 	display: inline-block;
 	margin-right: -4px;
 }
 
 /**************GRID*******************/
-
 .row {
 	max-width: 1000px;
 	padding-left: 20px;
@@ -295,7 +293,6 @@ li a:hover {
 }
 
 /* Clearfix */
-
 .row::before, .row::after {
 	display: table;
 	content: '';
